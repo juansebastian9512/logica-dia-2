@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form id="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+        
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" required><br><br>
+        
+        <label for="lenguaje">Lenguaje de programación:</label>
+        <input type="text" id="lenguaje" name="lenguaje" required><br><br>
+        
+        <button type="button" onclick="mostrarMensaje()">Enviar</button>
+    </form>
+
+    <script>
+        function mostrarMensaje() {
+            const nombre = document.getElementById('nombre').value;
+            const edad = document.getElementById('edad').value;
+            const lenguaje = document.getElementById('lenguaje').value;
+            alert(`Hola ${nombre}, tienes ${edad} años y ya estás aprendiendo ${lenguaje}!`);
+        }
+    </script>
+</body>
+</html>
