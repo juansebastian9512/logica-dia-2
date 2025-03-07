@@ -8,7 +8,7 @@
 Este repositorio contiene **7 mini proyectos** diseñados para mejorar la lógica de programación, siguiendo el curso de **Lógica de Programación de Alura**. Cada día se presenta un nuevo reto con una solución en **JavaScript y Python**.
 
 ## 📅 Desafíos  
-✅ **Día 1:** citas aleatoria  
+✅ **Día 1:** proyecto citas aleatoria    
 ✅ **Día 2:** almacenar valores en variables con 
 un formulario  
 ✅ **Día 3:** sin definir   
